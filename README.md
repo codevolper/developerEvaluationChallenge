@@ -1,4 +1,4 @@
-# developerEvaluationChallenge
+# Developer Evaluation Challenge
 Challenge code for technical job test
 
 # Sales API Application
@@ -27,21 +27,21 @@ Entity Framework Core with relational database Postgres
 
 # Installation
 * Clone the repository
-  ```
-    https://github.com/codevolper/developerEvaluationChallenge
-  ```
+```
+  https://github.com/codevolper/developerEvaluationChallenge
+```
 * Restore dependencies
-  ```
-    dotnet restore
-  ```
+```
+  dotnet restore
+```
 * Build the project
- ```
+```
   dotnet build
- ```
+```
 * Update EF migration database
- ```
+```
   dotnet ef database update 
- ```
+```
 * Run the application
 ```
   dotnet run --project projectName.sln
